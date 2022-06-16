@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact</title>
+		<link href="./css/contact.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<section class="navbar">
+			<div class="navbar-main">
+				<a href="./home.html">Home</a>
+				<a href="./about.html">About</a>
+				<a href="./contact.html">Contact</a>
+			</div>
+		</section>
+		<div class="contact-heading">
+			<h3>Contact</h3>
+		</div>
+		<form action="" method="post">
+			<div class="contact-data">
+				<label for="name" class="contact-data-label">Name</label>
+				<input
+					type="text"
+					name="name"
+					id="name"
+					placeholder="Enter your name"
+					required
+				/>
+			</div>
+			<br />
+			<div class="contact-data">
+				<label for="email" class="contact-data-label">Email</label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					placeholder="Enter your email"
+					required
+				/>
+			</div>
+			<br />
+			<div class="contact-data">
+				<label for="message" class="contact-data-label">Message</label>
+				<input
+					type="text"
+					name="message"
+					placeholder="Enter your message"
+					id="message"
+				/>
+			</div>
+			<br />
+			<div class="contact-data">
+				<label for="priority" class="contact-data-label">Priority</label>
+				<select name="priority">
+					<option value="prefer_not_to_say">Prefer Not To Say</option>
+					<option value="important">Important</option>
+					<option value="super_important">Super Important</option>
+				</select>
+			</div>
+			<br />
+			<button class="submit-btn">submit</button>
+		</form>
+	</body>
+</html>

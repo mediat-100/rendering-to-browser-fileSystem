@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #dddfd4;
+	/* color: blue; */
+	/* text-align: center; */
+}
+
+.navbar {
+	text-align: right;
+	font-size: 20px;
+	padding: 10px;
+	color: white;  
+	background-color: black;
+    margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* info {
+	margin: 10px;
+} */
+
+.intro {
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+/* .edu {
+    h2 {
+        text-align: center;
+    }
+}
+
+.job {
+	text-align: right;
+}
+
+.skills {
+	text-align: center;
+} */
+
+.history {
+	/* display: grid; */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+	padding: 50px;
+}
